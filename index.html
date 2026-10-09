@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahul &amp; Aiswarya – Wedding Invitation</title>
+  <meta name="description"
+    content="You are cordially invited to the wedding of Rahul and Aiswarya – 22nd November 2026" />
+
+  <!-- Open Graph / WhatsApp & Social sharing preview -->
+  <meta property="og:type" content="website" />
+    <meta property="og:title" content="Rahul &amp; Aiswarya – Wedding Invitation" />
+  <meta property="og:description"
+    content="You are cordially invited to the wedding of Rahul and Aiswarya – 22nd November 2026" />
+  <meta property="og:image" content="og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Rahul &amp; Aiswarya – Wedding Invitation" />
+  <meta name="twitter:description"
+    content="You are cordially invited to the wedding of Rahul and Aiswarya – 22nd November 2026" />
+  <meta name="twitter:image" content="og.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Great+Vibes&family=Cinzel:wght@400;500;600&family=Lato:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+  <!-- ===================== PRELOADER ===================== -->
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader-mark">
+      <svg viewBox="0 0 100 100" class="preloader-ring">
+        <circle cx="50" cy="50" r="42"></circle>
+      </svg>
+      <span class="preloader-initials" id="preloaderInitials">R&nbsp;&amp;&nbsp;A</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════ FLOATING PARTICLES ═══════════════════ -->
+  <div class="particles" id="particles"></div>
+
+  <!-- ═══════════════════ HERO SECTION ═══════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+
+    <!-- The Nikah Arch — signature reveal -->
+    <div class="arch-frame" id="archFrame">
+      <svg class="arch-leaf arch-leaf--left" id="archLeft" viewBox="0 0 220 420" xmlns="http://www.w3.org/2000/svg">
+        <path d="M220,420 L220,120 C220,55 175,10 110,0 L110,420 Z" />
+        <path class="arch-leaf__inline" d="M110,20 C165,32 200,68 200,122 L200,400" />
+      </svg>
+      <svg class="arch-leaf arch-leaf--right" id="archRight" viewBox="0 0 220 420" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,420 L0,120 C0,55 45,10 110,0 L110,420 Z" />
+        <path class="arch-leaf__inline" d="M110,20 C55,32 20,68 20,122 L20,400" />
+      </svg>
+
+      <!-- jasmine garland along the top of the arch -->
+      <svg class="garland" viewBox="0 0 440 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path class="garland__string" d="M10,10 Q220,70 430,10" />
+        <g class="garland__buds">
+          <circle cx="40" cy="24" r="5"></circle>
+          <circle cx="80" cy="35" r="6"></circle>
+          <circle cx="120" cy="43" r="5"></circle>
+          <circle cx="160" cy="48" r="6"></circle>
+          <circle cx="200" cy="51" r="5"></circle>
+          <circle cx="240" cy="51" r="5"></circle>
+          <circle cx="280" cy="48" r="6"></circle>
+          <circle cx="320" cy="43" r="5"></circle>
+          <circle cx="360" cy="35" r="6"></circle>
+          <circle cx="400" cy="24" r="5"></circle>
+        </g>
+      </svg>
+
+      <button type="button" class="arch-cta" id="archCta">
+        <span class="arch-cta__ring"></span>
+        <span class="arch-cta__label">Open the Invitation</span>
+      </button>
+
+      <!-- ring particle burst, populated by script.js when the arch opens -->
+      <div class="ring-particles" id="ringParticles" aria-hidden="true"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="ganesha-container" style="margin-bottom: 12px;">
+        <svg class="ganesha-svg" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg" width="60" height="72"
+          fill="none" stroke="#D4AF37" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+          style="filter: drop-shadow(0 2px 8px rgba(212,175,55,0.3));">
+          <path d="M50 15 L50 30 M42 22 C42 22 50 10 50 10 C50 10 58 22 58 22 M40 28 L60 28 M45 25 L55 25" />
+          <path d="M42 35 C30 35 25 50 40 60 C42 61 45 61 47 60" />
+          <path d="M58 35 C70 35 75 50 60 60 C58 61 55 61 53 60" />
+          <path
+            d="M47 42 C47 42 50 38 53 42 C53 42 55 50 51 62 C47 74 46 82 52 86 C58 90 64 88 66 82 C68 76 65 72 61 72" />
+          <path d="M47 46 Q50 52 53 46" fill="#D4AF37" stroke="none" />
+          <path d="M50 42 L50 48" />
+        </svg>
+      </div>
+      <p class="shloka"
+        style="font-family: var(--font-serif); font-size: 1.2rem; font-weight: 500; color: var(--gold); letter-spacing: 1px; margin-bottom: 8px;">
+        ॐ श्री गणेशाय नमः</p>
+      <div class="divider-ornament"><span></span><svg viewBox="0 0 40 20" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 2 L36 10 L20 18 L4 10 Z" stroke="#D4AF37" stroke-width="1" fill="none" />
+        </svg><span></span></div>
+      <h1 class="hero-names">
+        <span class="bride-name">Rahul</span>
+        <span class="ampersand">&amp;</span>
+        <span class="groom-name">Aiswarya</span>
+      </h1>
+      <p class="hero-subtitle">Wedding Ceremony</p>
+      <div class="hero-date">
+        <span class="date-num">22</span>
+        <span class="date-sep">·</span>
+        <span class="date-num">11</span>
+        <span class="date-sep">·</span>
+        <span class="date-num">2026</span>
+      </div>
+      <a href="#countdown" class="scroll-btn">
+        <span>Scroll to Explore</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2">
+          <path d="M12 5v14M5 12l7 7 7-7" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ COUNTDOWN ═══════════════════ -->
+  <section class="countdown-section" id="countdown">
+    <div class="section-header">
+      <p class="section-tag">Mark Your Calendar</p>
+      <h2 class="section-title">The Big Day Approaches</h2>
+      <div class="divider-line"><span></span><span class="diamond">◆</span><span></span></div>
+    </div>
+    <div class="countdown-grid">
+      <div class="count-box">
+        <span class="count-num" id="days">00</span>
+        <span class="count-label">Days</span>
+      </div>
+      <div class="count-box">
+        <span class="count-num" id="hours">00</span>
+        <span class="count-label">Hours</span>
+      </div>
+      <div class="count-box">
+        <span class="count-num" id="minutes">00</span>
+        <span class="count-label">Minutes</span>
+      </div>
+      <div class="count-box">
+        <span class="count-num" id="seconds">00</span>
+        <span class="count-label">Seconds</span>
+      </div>
+    </div>
+    <p class="countdown-note">Sunday, 22nd November 2026 · 11:00 AM – 11:30 AM </p>
+  </section>
+
+  <!-- ═══════════════════ INVITATION CARD ═══════════════════ -->
+  <section class="invitation-section" id="invitation">
+    <div class="inv-card">
+      <div class="inv-card-inner">
+        <p class="inv-from-label">Shri. Sanal Kumar S &amp; Smt. Sreedevi B.</p>
+        <p class="inv-address" style="margin-bottom: 8px;">Kizhakkekara Veedu, Aletty Peyad P.O.<br />Contact 9633873654</p>
+        <p class="inv-cordially">Request the honour of your presence at the wedding<br />ceremony of our beloved son</p>
+        <div class="divider-line small"><span></span><span class="diamond">◆</span><span></span></div>
+        <h2 class="inv-bride" style="margin-bottom: 2px;">Rahul</h2>
+        <p class="inv-with">and</p>
+        <h2 class="inv-groom" style="margin-top: 4px;">Aiswarya</h2>
+        <p class="inv-son">D/o Shri. Sadanandan K &amp; Smt. Jayalakshmy C<br />Kottilil House, Perumannu, Kechery, Thrissur
+        </p>
+        <div class="divider-line small"><span></span><span class="diamond">◆</span><span></span></div>
+        <p class="sharing-text" style="font-size: 0.95rem; line-height: 1.6;">Wedding ceremony on Sunday, 22nd November 2026<br />Muhurtham between 11:00 am &amp; 11:30 am<br />City Palace Auditorium, Kechery</p>
+      </div>
+      <div class="inv-corner inv-corner-tl"></div>
+      <div class="inv-corner inv-corner-tr"></div>
+      <div class="inv-corner inv-corner-bl"></div>
+      <div class="inv-corner inv-corner-br"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ BRIDE & GROOM ═══════════════════ -->
+  <section class="couple-section" id="couple">
+    <div class="section-header">
+      <p class="section-tag">The Couple</p>
+      <h2 class="section-title">Groom &amp; Bride</h2>
+      <div class="divider-line"><span></span><span class="diamond">◆</span><span></span></div>
+    </div>
+    <div class="couple-grid">
+      <!-- GROOM -->
+      <div class="person-card groom-card" data-aos="fade-right">
+        <div class="person-info">
+          <h3 class="person-name">Rahul</h3>
+          <p class="person-role">The Groom</p>
+          <div class="person-divider"></div>
+          <p class="person-parents">S/o Shri. Sanal Kumar S &amp; Smt. Sreedevi B.</p>
+          <p class="person-address">Kizhakkekara Veedu<br />Aletty Peyad P.O.</p>
+        </div>
+      </div>
+
+      <!-- BRIDE -->
+      <div class="person-card bride-card" data-aos="fade-left">
+        <div class="person-info">
+          <h3 class="person-name">Aiswarya</h3>
+          <p class="person-role">The Bride</p>
+          <div class="person-divider"></div>
+          <p class="person-parents">D/o Shri. Sadanandan K &amp; Smt. Jayalakshmy C</p>
+          <p class="person-address">Kottilil House<br />Perumannu, Kechery, Thrissur</p>
+        </div>
+      </div>
+
+      <!-- AMPERSAND DIVIDER -->
+      <!-- <div class="couple-amp">
+        <span>&amp;</span> 
+      </div>  -->
+
+      </div>
+  </section>
+
+  <!-- ═══════════════════ EVENT DETAILS ═══════════════════ -->
+  <section class="event-section" id="event">
+    <div class="event-bg-pattern"></div>
+    <div class="section-header light">
+      <p class="section-tag">The Celebration</p>
+      <h2 class="section-title">Join Us On Our Special Day</h2>
+      <div class="divider-line"><span></span><span class="diamond">◆</span><span></span></div>
+    </div>
+
+    <div class="event-cards">
+      <!-- Wedding -->
+      <div class="event-card">
+        <div class="event-badge">Wedding Ceremony</div>
+        <h3 class="event-name">Wedding Ceremony</h3>
+        <div class="event-divider"><span></span><span class="diamond small">◆</span><span></span></div>
+        <div class="event-detail">
+          <div class="event-icon"><i data-lucide="calendar"></i></div>
+          <div>
+            <p class="detail-label">DATE</p>
+            <p class="detail-val">Sunday, 22nd November 2026</p>
+          </div>
+        </div>
+        <div class="event-detail">
+          <div class="event-icon"><i data-lucide="clock"></i></div>
+          <div>
+            <p class="detail-label">MUHURTHAM</p>
+            <p class="detail-val">11:00 AM – 11:30 AM</p>
+          </div>
+        </div>
+        <div class="event-detail">
+          <div class="event-icon"><i data-lucide="map-pin"></i></div>
+          <div>
+            <p class="detail-label">VENUE</p>
+            <p class="detail-val">City Palace Auditorium Kechery</p>
+          </div>
+        </div>
+        <div class="event-btns">
+          <a href="https://www.google.com/maps/search/?api=1&query=City+Place%2C+Wadakkanchery+Rd%2C+near+BSNL+Office%2C+Kechery%2C+Thrissur%2C+Eranellur%2C+Keralam+680501" target="_blank" rel="noopener noreferrer" class="btn-loc primary-btn">
+            <i data-lucide="navigation"></i>
+            <span>Get Directions</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Thalikettu -->
+      <div class="event-card">
+        <div class="event-badge">Thalikettu</div>
+        <h3 class="event-name">Thalikettu</h3>
+        <div class="event-divider"><span></span><span class="diamond small">◆</span><span></span></div>
+        <div class="event-detail">
+          <div class="event-icon"><i data-lucide="map-pin"></i></div>
+          <div>
+            <p class="detail-label">VENUE</p>
+            <p class="detail-val">Guruvayoor Sri Krishna Temple</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reception -->
+      <div class="event-card">
+        <div class="event-badge">Reception</div>
+        <h3 class="event-name">Reception</h3>
+        <div class="event-divider"><span></span><span class="diamond small">◆</span><span></span></div>
+        <div class="event-detail">
+          <div class="event-icon"><i data-lucide="calendar"></i></div>
+          <div>
+            <p class="detail-label">DATE</p>
+            <p class="detail-val">Wednesday, 25th November 2026</p>
+          </div>
+        </div>
+        <div class="event-detail">
+          <div class="event-icon"><i data-lucide="clock"></i></div>
+          <div>
+            <p class="detail-label">TIME</p>
+            <p class="detail-val">4:30 PM – 8:30 PM</p>
+          </div>
+        </div>
+        <div class="event-detail">
+          <div class="event-icon"><i data-lucide="map-pin"></i></div>
+          <div>
+            <p class="detail-label">VENUE</p>
+            <p class="detail-val">GR Convention Centre (Ananthapuri Mini Hall)</p>
+          </div>
+        </div>
+        <div class="event-btns">
+          <a href="https://www.google.com/maps/search/?api=1&query=1087%2FG%2C+Thycaud%2C+Thiruvananthapuram%2C+Keralam+695014" target="_blank" rel="noopener noreferrer" class="btn-loc primary-btn">
+            <i data-lucide="navigation"></i>
+            <span>Get Directions</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer class="footer" id="footer">
+    <div class="footer-floral footer-floral-l">
+      <svg width="120" height="200" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M60 190 Q40 160 50 120 Q30 140 10 130 Q35 110 55 90 Q35 95 20 75 Q45 80 60 60 Q55 35 70 10 Q75 40 65 65 Q80 45 100 50 Q80 68 65 85 Q85 82 98 100 Q75 100 65 118 Q78 130 75 160 Q62 150 60 190Z"
+          fill="#1a3a6b" opacity="0.12" />
+        <circle cx="60" cy="10" r="5" fill="#D4AF37" opacity="0.5" />
+        <circle cx="100" cy="50" r="4" fill="#D4AF37" opacity="0.4" />
+        <circle cx="10" cy="130" r="3" fill="#D4AF37" opacity="0.4" />
+      </svg>
+    </div>
+    <div class="footer-content">
+      <h2 class="footer-names">Rahul &amp; Aiswarya</h2>
+      <p class="footer-date">22 · November · 2026</p>
+      <p class="footer-sharing">WITH BEST COMPLIMENTS</p>
+      <p class="footer-sharing">SURYA AND AROMAL</p>
+      <div class="footer-contact">
+      </div>
+    </div>
+    <div class="footer-floral footer-floral-r">
+      <svg width="120" height="200" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg"
+        style="transform:scaleX(-1)">
+        <path
+          d="M60 190 Q40 160 50 120 Q30 140 10 130 Q35 110 55 90 Q35 95 20 75 Q45 80 60 60 Q55 35 70 10 Q75 40 65 65 Q80 45 100 50 Q80 68 65 85 Q85 82 98 100 Q75 100 65 118 Q78 130 75 160 Q62 150 60 190Z"
+          fill="#1a3a6b" opacity="0.12" />
+        <circle cx="60" cy="10" r="5" fill="#D4AF37" opacity="0.5" />
+        <circle cx="100" cy="50" r="4" fill="#D4AF37" opacity="0.4" />
+        <circle cx="10" cy="130" r="3" fill="#D4AF37" opacity="0.4" />
+      </svg>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
