@@ -201,10 +201,23 @@ body {
 
 .bride-name,
 .groom-name {
-  font-family: var(--font-script);
-  font-size: clamp(2.8rem, 7vw, 5rem);
-  color: var(--cream);
-  line-height: 1.1;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  font-style: normal;
+}
+
+.bride-name::first-letter,
+.groom-name::first-letter {
+  font-size: 1.4em;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 0 4px 25px rgba(212, 175, 55, 0.7);
 }
 
 @keyframes shimmer {
