@@ -212,14 +212,6 @@ body {
   font-style: normal;
 }
 
-.bride-name::first-letter,
-.groom-name::first-letter {
-  font-size: 1.4em;
-  font-weight: 900;
-  color: #ffffff;
-  text-shadow: 0 4px 25px rgba(212, 175, 55, 0.7);
-}
-
 @keyframes shimmer {
   from {
     text-shadow: 0 2px 20px rgba(212, 175, 55, 0.3);
